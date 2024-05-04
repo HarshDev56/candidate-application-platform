@@ -4,7 +4,7 @@ import JobCard from './JobCard';
 
 const JobList = ({ jobs }) => {
     return (
-        <div>
+        <div className="cardWrapper">
             {jobs.map(job => (
                 <JobCard key={job.id} job={job} />
             ))}
