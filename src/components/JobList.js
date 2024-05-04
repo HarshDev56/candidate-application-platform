@@ -1,11 +1,15 @@
-import React from 'react'
+// src/components/JobList.js
+import React from 'react';
+import JobCard from './JobCard';
 
-const JobList = () => {
+const JobList = ({ jobs }) => {
     return (
         <div>
-
+            {jobs.map(job => (
+                <JobCard key={job.id} job={job} />
+            ))}
         </div>
-    )
-}
+    );
+};
 
-export default JobList
+export default JobList;
