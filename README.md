@@ -1,6 +1,6 @@
 # Candidate Application Platform
+![CandidateApplicationPlatform](https://github.com/HarshDev56/candidate-application-platform/assets/87370920/8470eca7-ae90-447d-9299-1f6f455efce8)
 
-![CandidateApplicationPlatform](https://github.com/HarshDev56/candidate-application-platform/assets/87370920/af9880de-14be-438e-b139-76a5c6c61ecd)
 Welcome to the Candidate Application Platform! This web application helps candidates find suitable job opportunities based on various filters.
 
 ## Features
