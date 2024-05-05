@@ -1,0 +1,11 @@
+.filterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the gap between filters */
+    justify-content: center; /* Center horizontally */
+}
+
+.filter {
+    flex: 1; /* Make the filters take equal width */
+    max-width: 150px; /* Set maximum width for each filter */
+}
