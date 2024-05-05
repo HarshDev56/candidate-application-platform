@@ -1,11 +1,15 @@
+/* Styles for filter container */
 .filterContainer {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; /* Display filters in a flex container */
+    flex-wrap: wrap; /* Wrap filters to the next line if needed */
     gap: 10px; /* Adjust the gap between filters */
     justify-content: center; /* Center horizontally */
+    max-width: 100%; /* Set maximum width for the filter container */
+    padding: 0 10px; /* Add padding to prevent filters from reaching edges */
 }
 
+/* Styles for individual filters */
 .filter {
-    flex: 1; /* Make the filters take equal width */
+    flex: 0 0 auto; /* Allow filters to shrink and grow as needed */
     max-width: 150px; /* Set maximum width for each filter */
 }

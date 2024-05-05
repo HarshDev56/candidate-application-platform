@@ -1,41 +1,57 @@
+/* Styles for job card container */
 .cardContainer {
-    border-radius: 12px;
-    margin: 10px;
-    width: 300px;
+    border-radius: 12px; /* Rounded corners */
+    margin: 10px; /* Margin around the card */
+    width: 300px; /* Fixed width for the card */
 }
 
+/* Styles for company logo */
 .logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-   margin-right: 10px;
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border-radius: 50%; /* Make it circular */
+    margin-right: 10px; /* Margin between logo and text */
 }
 
+/* Styles for job description */
 .description {
-    margin-top: 2px;
+    margin-top: 2px; /* Margin from the top */
 }
 
+/* Styles for button container */
 .buttonContainer {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 10px;
-    flex-direction: column;
+    display: flex; /* Display buttons in a flex container */
+    justify-content: flex-end; /* Align buttons to the right */
+    margin-top: 10px; /* Margin from the top */
+    flex-direction: column; /* Arrange buttons vertically */
 }
 
 /* Add margin between buttons and make them the same size */
 .buttonContainer button {
-    margin-bottom: 5px; /* Adjust the margin as needed */
+    margin-bottom: 5px; /* Margin between buttons */
     width: 100%; /* Make buttons take full width */
 }
 
 /* Add this style to make the cards wrap */
 .cardWrapper {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; /* Display cards in a flex container */
+    flex-wrap: wrap; /* Wrap cards to the next line if needed */
     justify-content: center; /* Center the cards horizontally */
 }
 
-.cardHeader{
-    display:flex;
-    
+/* Styles for card header */
+.cardHeader {
+    display: flex; /* Display header content in a flex container */
+}
+
+/* Styles for company name and minimum experience label */
+.cardHeader > div > p {
+    color: #888; /* Gray color */
+    font-weight: bold; /* Make the font bold */
+}
+
+/* Styles for estimated salary in a different shade */
+.description > p {
+    color: rgba(0, 0, 0, 0.7); /* Darker shade */
+    font-weight: bold; /* Make the font bold */
 }

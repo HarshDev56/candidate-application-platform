@@ -24,6 +24,7 @@ const JobList = ({ jobs, filters }) => {
     return (
         <div className="cardWrapper">
             {filteredJobs.map(job => (
+                // Render each filtered job using JobCard component
                 <JobCard key={job.jdUid} job={job} />
             ))}
         </div>
