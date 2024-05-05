@@ -46,13 +46,17 @@ const JobCard = ({ job }) => {
                         <div className="description">
                             <h3>About Company</h3>
                             <p>{job.jobDetailsFromCompany}</p>
-                            <Button onClick={toggleShowMore} color="primary">Read Less</Button>
+                            <div className="viewJobButton">
+                                <Button onClick={toggleShowMore} color="primary">Read Less</Button>
+                            </div>
                         </div>
                     ) : (
                         <div className="description">
                             <h3>About Company</h3>
                             <p>{job.jobDetailsFromCompany.slice(0, job.jobDetailsFromCompany.length / 2)}...</p>
-                            <Button onClick={toggleShowMore} color="primary">View Job</Button>
+                            <div className="viewJobButton">
+                                <Button onClick={toggleShowMore} color="primary">View Job</Button>
+                            </div>
                         </div>
                     )}
 

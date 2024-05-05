@@ -55,3 +55,8 @@
     color: rgba(0, 0, 0, 0.7); /* Darker shade */
     font-weight: bold; /* Make the font bold */
 }
+/* Center the "View Job" button horizontally */
+.description .viewJobButton {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+}
