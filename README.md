@@ -52,4 +52,12 @@ Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
 * ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 * ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
+## Note Regarding Infinite Scroll Feature
+
+I aimed to implement infinite scroll functionality in my job listings page to seamlessly load additional job listings as users scroll down the page. The intended behavior was to fetch and display more jobs automatically, eliminating the need for users to click on a "Load More" button.
+
+However, due to limitations in the data source or API, modifying parameters in my API calls did not yield additional data as expected. Despite my efforts to enable infinite scrolling, the API did not return additional job listings beyond the initial set.
+
+I appreciate your time in reading this note, and I hope you understand the current limitation.
+
 # Thank you!
